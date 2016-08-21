@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="card card-container">
+      <h2 class="text-center">SIGN UP</h2>
+      <p id="profile-name" class="profile-name-card"></p>
+      <form class="form-signin">
+        <span id="reauth-email" class="reauth-email"></span>
+        <input type="text" id="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
+        <input type="text" id="inputLastName" class="form-control" placeholder="Last Name" required autofocus>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <input type="text" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required><input type="password" id="reinputPassword" class="form-control" placeholder="Re-input Password" required>
+        <div id="remember" class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> I agree with the <a href="#">Terms and Conditions</a>.
+          </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign up</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
